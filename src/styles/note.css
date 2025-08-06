@@ -1,0 +1,39 @@
+.note {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  width: 250px;
+  padding: 1.2rem;
+  position: relative;
+  min-height: 120px;
+}
+
+.note h2 {
+  margin-top: 0;
+  font-size: 1.1em;
+  color: #ffa500;
+}
+
+.note p {
+  margin-bottom: 0.85em;
+  color: #333;
+  white-space: pre-wrap;
+}
+
+.note button {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 0.35em 1em;
+  background: #ff6363;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.95em;
+  transition: background 0.2s;
+}
+
+.note button:hover {
+  background: #e04848;
+}
